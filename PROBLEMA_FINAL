@@ -1,0 +1,113 @@
+PROBLEMA
+
+Deficiencia de trabajadores en el sector salud, particularmente medicos 
+
+Como nuestro hospital puede ofrecer condiciones de trabajo mas atractivas y/o ampliar el numero de contratos existentes para incrementar la plantilla de medico(a)s y enfermero(a)s, asi como mejorar las condiciones de higiene y seguridad (riesgo biologico) ?
+
+
+
+Esto traerá como consecuencia un mayor tiempo de espera, el estrés excesivo de los pocos trabajadores disponibles, la falta de especialización 
+
+El tiempo de espera para consultas e intervenciones quirurgicas 
+
+
+Data Science and the Eternal Hollows
+Hospitals: The overall waiting times for health services 
+
+The lack of specialized personnel in hospitals
+
+1. The problem is excessive waiting times for patients to access health services due to a lack of specialized personnel (physicians and nurses).
+2. How increasing personnel in hospital can lead to improvement of waiting times for patients and  also a better service quality?
+
+1. The problem is excessive waiting times for patients to access health services due to a lack of specialized personnel (physicians and nurses).
+2. How increasing the personnel in hospitals can lead to improvement of waiting times for patients and  still provide quality service?
+
+2. How many people should the hospital hire to optimize waiting times for patients and minimize costs?
+
+2. How can we reduce the waiting times for patients in a given hospital?
+
+Descriptive model---> should include a relationship between the waiting time according to the type of demanded service from the patient, the number of patients, the number of specialists in the required field, the cost difference between the recent number of specalists and that including the increment, the maximum personnel capacity and budget of the facilities, among others.
+
+Data requirements---> Assess the areas with more demand or with more number of patients with greater waiting times
+
+
+1. It is found in a study performed by the selected hospital, that the main factors impacting waiting time for patients are: the lack of healthcare providers, overcrowding of patients, employee attitudes, work processes and management problems. Since the main factor is the lack of healthcare providers, I selected it to give answer to the initial question. For the Analytical Approach, I would use a predictive model , through a decision tree, to asses the reduction in waiting times according to variables like the type of demanded service from the patient (health departments),  the number of patients asking for each service, the number of specialists on the given fields, the predicted time reduction by adding one person at a time in each field and the overall extra costs of hiring that person.
+2. Evaluate the area with the most efficient time reduction 
+
+
+
+1. It is found in a study performed by the selected hospital, that the main factors impacting waiting time for patients are: the lack of healthcare providers, overcrowding of patients, employee attitudes, work processes and management problems. Since the main factor is the lack of healthcare providers, I selected it to give answer to the initial question. For the Analytical Approach, I would use a predictive model  through a decision tree taking into account a time period of one month.
+2. Criteria to select patients to follow waiting times during a month are: 
+                                            - Patients from a fixed location (near the hospital, in the same village or city).
+                                            - Patients with fixed availability (morning or afternoon).
+                                            -Patients from a specific department or area (general consulting, for example) which have chronic diseases or constant need of service
+
+
+5.  to asses the reduction in waiting times according to variables like the type of demanded service from the patient (health departments),  the number of patients asking for each service, the number of specialists on the given fields, the predicted time reduction by adding one person at a time in each field and the overall extra costs of hiring that person for further comparison.
+
+
+
+1. It is found in a study performed by the selected hospital, that the main factors impacting waiting time for patients are: the lack of healthcare providers, overcrowding of patients, employee attitudes, work processes and management problems. Since the main factor is the lack of healthcare providers, I selected it to give answer to the initial question. For the Analytic Approach, I would use a predictive model  through a decision tree.
+2.  To asses the reduction in waiting times I would need variables like the type of demanded service from the patient (health departments),  the number of patients asking for each service, the number of specialists on the given fields, the predicted time reduction by adding one person at a time in each field and the overall extra costs of hiring that person for further comparison.
+
+
+3. Data collection can be made straight from databases from Hospital records, and web services or platforms where information about patients is registered
+
+
+4. With all the data, we can classify and make an average waiting time for each department, zone in the city, time of the day (morning or afternoon) as a function of the number of specialists available. 
+5.  
+
+
+
+1. It is found in a study performed by the selected hospital, that the main factors impacting waiting time for patients are: the lack of healthcare providers, overcrowding of patients, employee attitudes, work processes and management problems. Since the main factor is the lack of healthcare providers, I selected it to give answer to the initial question. For the Analytic Approach, I would use a predictive model  through a decision tree.
+2.  To asses the reduction in waiting times I would need variables like the type of demanded service from the patient (health departments), patient's address, time of the day, day of the week,  the number of patients asking for each service, the number of specialists on the given fields and the overall costs of the service provided.
+3. Data collection can be made straight from databases from the hospital records, or its web services or platforms where information about patients is registered. Measurements of the waiting time for patients using the current number of healthcare employees should be made in case they don't exist or data about the considered variables is not complete. A standard period for the new data is defined to be a month. The same measurements would be repeated varying the number of available specialists
+4. With all the data, I can classify and make an average waiting time for each department, zone in the city, time of the day (morning or afternoon) as a function of the number of specialists available.  It is possible to play with this last variable, to measure the behavior of less available specialist during a monthly period
+
+
+
+1. It is found in a study performed by the selected hospital, that the main factors impacting waiting time for patients are: the lack of healthcare providers, overcrowding of patients, employee attitudes, work processes and management problems. Since the main factor is the lack of healthcare providers, I selected it to give answer to the initial question. For the Analytic Approach, I would use a predictive model  using an interpolation method.
+2.  To asses the reduction in waiting times I would need variables like the type of demanded service from the patient (health departments), patient's address(how near), gender, time of the day (availability), day of the week,  the number of patients asking for each service and the overall costs of the service provided; the previous information is going to be related accordingly to the number of specialists on the given fields.
+3. Data collection can be made straight from databases from the hospital records, or web services/platforms where information about patients is registered. Measurements of the waiting time for patients using the current number of healthcare employees should be made in case they don't exist or data about the considered variables is not available. The number of available specialists will be reduced every month, and new measurements would be performed and registered in columns, representing the selected variables. 
+4. With all the data, I can classify and make an average waiting time for each department, zone in the city, time of the day (morning or afternoon), gender, etc., as a function of the number of specialists available. Data transformations and cleaning (avoid repeated values or patients) is necessary.
+5.  Analyze the data, by making plots of waiting time for patients under the same conditions for each variable and look for patterns or relationships between points. Use interpolation curves to predict the waiting times if more people is added, considering the change in other variables (like the overall cost o the service). To evaluate the model, use only two or three months to increase the number of specialists and compare with the predictions obtained from the model. Get feedback from the stakeholders and the sponsors involed in the project.
+
+
+
+1. It is found in a study performed by the selected hospital, that the main factors impacting waiting time for patients are: the lack of healthcare providers, overcrowding of patients, employee attitudes, work processes and management problems. Since the main factor is the lack of healthcare providers, I selected it to give answer to the initial question. For the Analytic Approach, I would use a predictive model  using an interpolation method.
+2.  To asses the reduction in waiting times I would need variables like the type of demanded service from the patient (health departments), patient's address(how near), gender, time of the day (availability), day of the week,  the number of patients asking for each service and the overall costs of the service provided; the previous information is going to be related accordingly to the number of specialists on the given fields.
+3. Data collection can be made straight from databases from the hospital records, or web services/platforms where information about patients is registered. Measurements of the waiting time for patients using the current number of healthcare employees should be made in case they don't exist or data about the considered variables is not available. The number of available specialists will be reduced every month, and new measurements would be performed and registered in columns, representing the selected variables. 
+4. With all the data, I can classify and make an average waiting time for each department, zone in the city, time of the day (morning or afternoon), gender, etc., as a function of the number of specialists available. Data transformations and cleaning (avoid repeated values or patients) is necessary. Analyze the data, by making plots of waiting time for patients under the same conditions for each variable and look for patterns or relationships between points.
+5.   Use an interpolation method for modelling curves to predict the waiting times if more healthcare employees are added, considering the change in other variables (like the overall cost o the service). To evaluate the model, use only two or three months to increase the number of specialists and compare with the predictions obtained from the model. Get feedback from the stakeholders and the sponsors involved in the project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
